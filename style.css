@@ -1,0 +1,125 @@
+/* Basic Page Styling */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Header with Softer Blue Overlay */
+header {
+  background: 
+    linear-gradient(rgba(234, 236, 238, 0.4), rgba(225, 233, 235, 0.4)),
+    url('https://blog.etatweer.com/wp-content/uploads/2025/02/information-technology.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #045ca0;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #90e0ef;
+}
+
+/* Content Sections */
+.content {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.content h2 {
+  color: #0077b6;
+  border-bottom: 2px solid #90e0ef;
+  padding-bottom: 5px;
+}
+
+/* Cards for Careers */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: #e3f2fd;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #0077b6;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* About Me Section */
+.about-section {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* Profile image as background */
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  margin: 25px auto;
+  border-radius: 50%;
+  background-image: url(profile.png) ;
+  background-size: cover;
+  background-position: center;
+  border: 4px solid #0077b6;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-section p {
+  margin-bottom: 15px;
+  font-size: 1.05em;
+  line-height: 1.6;
+}
